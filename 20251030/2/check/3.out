@@ -1,0 +1,4 @@
+P(True):8.0 Q(True):6.0 R(True):2.0
+Q < P=True, R < P=True, P < Q=False
+P in Q=False, Q in P=False, R in P=False
+P & Q=True, Q & R=False, P & R=False

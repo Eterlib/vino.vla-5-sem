@@ -34,3 +34,6 @@ for c, y in enumerate(ys):
 
 for row in scr:
     print("".join(row))
+
+import sys
+exec(sys.stdin.read())

@@ -11,3 +11,6 @@ def Sub(a, b):
 
 args = eval(f"({input()})")
 print(Sub(*args))
+
+import sys
+exec(sys.stdin.read())

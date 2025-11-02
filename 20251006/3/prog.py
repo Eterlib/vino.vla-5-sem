@@ -13,3 +13,6 @@ F = Calc(*args)
 x = eval(input())
 
 print(F(x))
+
+import sys
+exec(sys.stdin.read())

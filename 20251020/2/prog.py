@@ -48,3 +48,6 @@ while True:
         define(line); defined+=1
     else:
         call(line)
+
+import sys
+exec(sys.stdin.read())

@@ -64,3 +64,6 @@ def fmt(bar, frac):
 
 print(fmt(gas_bar, frac_g))
 print(fmt(liq_bar, frac_l))
+
+import sys
+exec(sys.stdin.read())

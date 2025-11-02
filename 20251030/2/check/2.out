@@ -1,0 +1,4 @@
+A(True):8.0 B(True):2.0 C(True):0.5 E(False):0.0
+C < A=True, B < A=True, E < A=True, A < C=False
+C in A=True, E in A=True, B in A=False
+A & B=True, A & C=True, B & C=False, E & A=False

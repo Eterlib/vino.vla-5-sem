@@ -14,3 +14,6 @@ def Pareto(*p):
 
 args = eval(f"({input()})")
 print(Pareto(*args))
+
+import sys
+exec(sys.stdin.read())

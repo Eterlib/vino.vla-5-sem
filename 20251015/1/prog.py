@@ -36,3 +36,6 @@ b_end = b_start + degB + 1
 coeffsB = [to_frac(t) for t in tokens[b_start:b_end]]
 
 print(check(s, w, degA, coeffsA, degB, coeffsB))
+
+import sys
+exec(sys.stdin.read())
