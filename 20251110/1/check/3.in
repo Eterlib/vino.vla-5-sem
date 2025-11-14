@@ -1,0 +1,5 @@
+t = DivStr()
+print(len(t), repr(t % 3))
+u = DivStr("xyz")
+print(*u // 2)
+print(u % 2)

@@ -1,0 +1,4 @@
+s = DivStr("HELLOworld")
+print(s.lower() % 4)
+print(* (s[2:8] // 3))
+print(s % 5 + DivStr() + s % 7)
