@@ -1,0 +1,10 @@
+x = C()
+y = C()
+
+print(x.num)
+
+y.num = 7
+print(y.num)
+
+y.num = "hello world!"
+print(y.num)

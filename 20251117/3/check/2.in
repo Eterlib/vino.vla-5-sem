@@ -1,0 +1,7 @@
+v = Vowel(a=10)
+print("has a:", v.a)
+
+try:
+    print(v.e)
+except AttributeError as e:
+    print("empty slot read:", type(e).__name__)

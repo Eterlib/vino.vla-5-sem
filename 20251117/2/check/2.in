@@ -1,0 +1,12 @@
+c3 = C()
+c4 = C()
+c5 = C()
+
+c3.num = "abcde"
+c4.num = [1, 2, 3]
+c5.num = (0, 0, 0, 0)
+
+print(c3.num)
+print(c4.num)
+print(c5.num)
+print(c3.num + c4.num + c5.num)

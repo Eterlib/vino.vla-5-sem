@@ -1,0 +1,9 @@
+v = Vowel(a=1, e=2)
+print("full before:", v.full)
+
+v.full = True
+
+print("full after:", v.full)
+
+v.i = v.o = v.u = v.y = 0
+print("full final:", v.full)

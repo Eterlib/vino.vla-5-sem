@@ -1,0 +1,7 @@
+v = Vowel(a=1)
+print(v.answer)
+
+try:
+    v.answer = 100
+except AttributeError as e:
+    print("answer write error:", type(e).__name__)

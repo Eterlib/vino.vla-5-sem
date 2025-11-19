@@ -1,0 +1,9 @@
+c1 = C()
+c2 = C()
+
+c1.num = 10.5
+c2.num = 3+4j
+
+print(c1.num)
+print(c2.num)
+print(c1.num + c2.num)

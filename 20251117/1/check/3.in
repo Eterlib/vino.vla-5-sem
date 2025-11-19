@@ -1,0 +1,10 @@
+@objcount
+class C:
+    def __del__(self):
+        print("C deleted")
+
+c1 = C()
+c2 = C()
+print(C.counter)
+c1 = "oops"
+print(C.counter)

@@ -1,0 +1,2 @@
+has a: 10
+empty slot read: AttributeError

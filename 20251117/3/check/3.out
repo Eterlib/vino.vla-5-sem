@@ -1,0 +1,2 @@
+nonslot read: AttributeError
+nonslot write: AttributeError

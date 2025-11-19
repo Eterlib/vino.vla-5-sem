@@ -1,0 +1,11 @@
+@objcount
+class B:
+    def __init__(self, x):
+        self.x = x
+
+b1 = B(10)
+b2 = B(20)
+b3 = B(30)
+print(B.counter)
+b2 = 0
+print(B.counter)

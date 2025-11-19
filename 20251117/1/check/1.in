@@ -1,0 +1,9 @@
+@objcount
+class A:
+    pass
+
+a1 = A()
+a2 = A()
+print(A.counter)
+a1 = None
+print(A.counter)

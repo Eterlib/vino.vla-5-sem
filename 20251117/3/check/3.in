@@ -1,0 +1,11 @@
+v = Vowel()
+
+try:
+    print(v.zzz)
+except AttributeError as e:
+    print("nonslot read:", type(e).__name__)
+
+try:
+    v.zzz = 123
+except AttributeError as e:
+    print("nonslot write:", type(e).__name__)
