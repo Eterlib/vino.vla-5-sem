@@ -1,0 +1,14 @@
+class D(metaclass=dump):
+    def __init__(self, text):
+        self.text = text
+
+    def upper(self):
+        return self.text.upper()
+
+    def repeat(self, n):
+        return self.text * n
+
+
+d = D("hi")
+print(d.upper())
+print(d.repeat(3))

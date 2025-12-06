@@ -1,0 +1,7 @@
+; Неправильная метка: good не определена
+
+    store 5 a
+    store 10 b
+
+    ifgt b a good   ; метка good нигде не объявлена
+    out a
