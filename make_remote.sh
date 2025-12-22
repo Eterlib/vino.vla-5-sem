@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # запускать из корневой директории вашего гит-репозитория
 
-HIM="Лукьянчиков Никита"
+HIM="Авдонин Алексей"
 BASE_DIR=$(pwd)
 
 find "$BASE_DIR" -type d -name "check" | grep "2025" | while read -r CHECK_DIR; do
